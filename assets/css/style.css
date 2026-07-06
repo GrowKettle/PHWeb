@@ -1,0 +1,384 @@
+/* ==========================================================
+   Kettle Country Scouting Website
+   styles.css
+   Version 1.0
+   ========================================================== */
+
+
+/* ==========================================================
+   Color Palette
+   ========================================================== */
+
+:root {
+
+    --kc-blue: #1565c0;
+    --kc-blue-dark: #0d47a1;
+    --kc-blue-light: #e8f2fc;
+
+    --kc-background: #f7f8fa;
+    --kc-surface: #ffffff;
+
+    --kc-text: #333333;
+    --kc-text-light: #666666;
+
+    --kc-border: #d8d8d8;
+
+    --kc-link: #1565c0;
+    --kc-link-hover: #0d47a1;
+
+    --kc-shadow: 0 2px 8px rgba(0,0,0,.08);
+
+    --page-width: 1200px;
+
+}
+
+
+/* ==========================================================
+   Reset
+   ========================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==========================================================
+   Base
+   ========================================================== */
+
+body {
+
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    background: var(--kc-background);
+
+    color: var(--kc-text);
+
+    line-height: 1.6;
+
+}
+
+
+img {
+
+    max-width: 100%;
+    display: block;
+
+}
+
+
+a {
+
+    color: var(--kc-link);
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    color: var(--kc-link-hover);
+    text-decoration: underline;
+
+}
+
+
+/* ==========================================================
+   Site Header
+   ========================================================== */
+
+.site-header {
+
+    background: white;
+    border-bottom: 1px solid var(--kc-border);
+
+}
+
+.site-brand {
+
+    max-width: var(--page-width);
+
+    margin: auto;
+
+    padding: 1.5rem;
+
+}
+
+.site-brand h1 {
+
+    font-size: 2rem;
+    margin-bottom: .25rem;
+
+}
+
+.site-brand p {
+
+    color: var(--kc-text-light);
+
+}
+
+
+/* ==========================================================
+   Global Navigation
+   ========================================================== */
+
+.site-nav {
+
+    background: var(--kc-blue);
+
+}
+
+.site-nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    max-width: var(--page-width);
+
+    margin: auto;
+
+}
+
+.site-nav li {
+
+    margin: 0;
+
+}
+
+.site-nav a {
+
+    display: block;
+
+    color: white;
+
+    padding: 1rem 1.25rem;
+
+    font-weight: 600;
+
+}
+
+.site-nav a:hover {
+
+    background: var(--kc-blue-dark);
+    text-decoration: none;
+
+}
+
+.site-nav a.active {
+
+    background: var(--kc-blue-dark);
+
+}
+
+/* ==========================================================
+   Main Layout
+   ========================================================== */
+
+.page {
+
+    max-width: var(--page-width);
+
+    margin: auto;
+
+    padding: 2rem 1.5rem;
+
+}
+
+
+/* ==========================================================
+   Hero
+   ========================================================== */
+
+.hero {
+
+    margin-bottom: 2rem;
+
+}
+
+.hero h2 {
+
+    font-size: 2rem;
+
+    margin-bottom: .5rem;
+
+}
+
+.hero p {
+
+    font-size: 1.15rem;
+
+    color: var(--kc-text-light);
+
+}
+
+
+/* ==========================================================
+   Guide Grid
+   ========================================================== */
+
+.guide-grid {
+
+    display: grid;
+
+    gap: 1.5rem;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+
+/* ==========================================================
+   Cards
+   ========================================================== */
+
+.card {
+
+    background: var(--kc-surface);
+
+    border: 1px solid var(--kc-border);
+
+    border-radius: 10px;
+
+    box-shadow: var(--kc-shadow);
+
+    padding: 1.5rem;
+
+}
+
+.card h3 {
+
+    margin-bottom: .75rem;
+
+}
+
+.card p {
+
+    margin-bottom: 1rem;
+
+    color: var(--kc-text-light);
+
+}
+
+
+/* ==========================================================
+   Buttons
+   ========================================================== */
+
+.button {
+
+    display: inline-block;
+
+    background: var(--kc-blue);
+
+    color: white;
+
+    padding: .7rem 1.2rem;
+
+    border-radius: 6px;
+
+    font-weight: 600;
+
+}
+
+.button:hover {
+
+    background: var(--kc-blue-dark);
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+
+/* ==========================================================
+   Sidebar
+   (Used later for Guide navigation)
+   ========================================================== */
+
+.sidebar {
+
+    background: white;
+
+    border: 1px solid var(--kc-border);
+
+    border-radius: 10px;
+
+    padding: 1rem;
+
+}
+
+.sidebar ul {
+
+    list-style: none;
+
+}
+
+.sidebar li {
+
+    margin-bottom: .5rem;
+
+}
+
+.sidebar a {
+
+    display: block;
+
+    padding: .35rem 0;
+
+}
+
+
+/* ==========================================================
+   Footer
+   ========================================================== */
+
+.site-footer {
+
+    margin-top: 4rem;
+
+    border-top: 1px solid var(--kc-border);
+
+    color: var(--kc-text-light);
+
+    text-align: center;
+
+    padding: 2rem;
+
+}
+
+
+/* ==========================================================
+   Responsive
+   ========================================================== */
+
+@media (max-width: 700px) {
+
+    .site-brand {
+
+        text-align: center;
+
+    }
+
+    .site-nav ul {
+
+        flex-direction: column;
+
+    }
+
+    .site-nav a {
+
+        border-top: 1px solid rgba(255,255,255,.15);
+
+    }
+
+}

@@ -1,0 +1,200 @@
+# Template 2 — Major Section Landing Page
+
+File: `templates/template-2-section-landing.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Section Title | Building on What's Working</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+
+<div class="site-title">
+
+    <a href="/">
+        Building on What's Working
+    </a>
+
+</div>
+
+
+
+<nav class="main-nav">
+
+    <a href="/">
+        Home
+    </a>
+
+    <a href="/guides/">
+        Guides
+    </a>
+
+    <a href="/resources/">
+        Resources
+    </a>
+
+    <a href="/units/">
+        Units
+    </a>
+
+    <a href="/about/">
+        About
+    </a>
+
+</nav>
+
+
+</header>
+
+
+
+
+<main>
+
+
+<section class="page-header">
+
+
+<h1>
+    Section Title
+</h1>
+
+
+<p class="intro">
+
+    Description of this section and what visitors
+    will find here.
+
+</p>
+
+
+</section>
+
+
+
+
+
+<section class="card-grid">
+
+
+
+<article class="card">
+
+
+<h2>
+
+<a href="#">
+
+    Item Title
+
+</a>
+
+</h2>
+
+
+<p>
+
+    Brief explanation of this item
+    and why someone would want to explore it.
+
+</p>
+
+
+</article>
+
+
+
+
+
+<article class="card">
+
+
+<h2>
+
+<a href="#">
+
+    Item Title
+
+</a>
+
+</h2>
+
+
+<p>
+
+    Brief explanation of this item
+    and why someone would want to explore it.
+
+</p>
+
+
+</article>
+
+
+
+
+
+<article class="card">
+
+
+<h2>
+
+<a href="#">
+
+    Item Title
+
+</a>
+
+</h2>
+
+
+<p>
+
+    Brief explanation of this item
+    and why someone would want to explore it.
+
+</p>
+
+
+</article>
+
+
+
+</section>
+
+
+
+</main>
+
+
+
+
+<footer>
+
+<p>
+© 2026 Kettle Country District, Bay-Lakes Council, Scouting America
+</p>
+
+</footer>
+
+
+</body>
+
+
+</html>
+```

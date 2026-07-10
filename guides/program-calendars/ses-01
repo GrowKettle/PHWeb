@@ -2,7 +2,6 @@
 
 File: `templates/template-2-section-landing.html`
 
-```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -197,4 +196,3 @@ File: `templates/template-2-section-landing.html`
 
 
 </html>
-```

@@ -1,8 +1,5 @@
-# Template 2 — Major Section Landing Page
-
-File: `templates/template-2-section-landing.html`
-
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -59,9 +56,6 @@ File: `templates/template-2-section-landing.html`
 
 
 </header>
-
-
-
 
 <main>
 

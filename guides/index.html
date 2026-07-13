@@ -27,9 +27,12 @@
         </ul>
     </nav>
 
-    <nav class="breadcrumb">
-            <a href="/guides/index.html">Guides</a> /
-            <span>Building on What Works</span>
+    <nav aria-label="Breadcrumb" class="breadcrumb-container">
+        <ol class="breadcrumb-list">
+            <li><a href="/">Home</a></li>
+            <!-- The last item represents the current page. It has no link and uses aria-current -->
+            <li aria-current="page">Unit Program Guides</li>
+        </ol>
     </nav>
 
 </header>

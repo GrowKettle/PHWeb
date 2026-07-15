@@ -14,23 +14,25 @@
 <header class="site-header">
 
     <div class="site-brand">
-        <h1>Kettle Country Scouting</h1>
-        <p>Thursday - Helping Leaders Build Great Programs</p>
+        <h1>Kettle Country Program Hub</h1>
     </div>
 
     <nav class="site-nav">
         <ul>
-            <li><a href="/PHWeb/index.html">Home</a></li>
-            <li><a href="/PHWeb/guides/index.html">Guides</a></li>
-            <li><a href="/PHWeb/resources/index.html">Resources</a></li>
-            <li><a href="/PHWeb/units/index.html">Units</a></li>
-            <li><a href="/PHWeb/about/index.html">About</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../guides/index.html">Guides</a></li>
+            <li><a href="../resources/index.html">Resources</a></li>
+            <li><a href="../units/index.html">Units</a></li>
+            <li><a href="../about/index.html">About</a></li>
         </ul>
     </nav>
 
-    <nav class="breadcrumb">
-            <a href="/PHWeb/resources/index.html">Resources</a> /
-            <span>Building on What Works</span>
+    <nav aria-label="Breadcrumb" class="breadcrumb-container">
+    <ol class="breadcrumb-list">
+        <li><a href="../index.html">Home</a></li>
+        <!-- The last item represents the current page. It has no link and uses aria-current -->
+        <li aria-current="page">Resources</li>
+    </ol>
     </nav>
 
 </header>
@@ -58,7 +60,7 @@
             </p>
 
             <a class="button"
-               href="/PHWeb/resources/calendars/index.html">
+               href="../resources/calendars/index.html">
                 Open
             </a>
 
@@ -77,7 +79,7 @@
             </p>
 
             <a class="button"
-               href="/PHWeb/resources/program-guides/index.html">
+               href="../resources/program-guides/index.html">
                 Open
             </a>
 
@@ -96,7 +98,7 @@
         </p>
 
         <a class="button"
-            href="/PHWeb/resources/videos/index.html">
+            href="../resources/videos/index.html">
             Open
         </a>
 

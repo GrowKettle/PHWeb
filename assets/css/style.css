@@ -249,6 +249,8 @@ a:hover {
 
     font-size: 1.15rem;
 
+    margin-bottom: .5rem;
+
     color: var(--kc-text-light);
 
 }

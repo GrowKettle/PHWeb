@@ -29,6 +29,8 @@
     --kc-text: #333333;
     --kc-text-light: #666666;
 
+    --kc-header-text: #fbfbfb;
+
     --kc-border: #d8d8d8;
 
     --kc-link: #1565c0;
@@ -130,6 +132,7 @@ a:hover {
 
     font-size: 2rem;
     margin-bottom: .25rem;
+    color: var(--kc-header-text)
 
 }
 
@@ -141,7 +144,7 @@ a:hover {
 
 .site-banner {
 
-    background-image: url(/assets/images/IMG_20260628_200211080_HDR.jpg);
+    background-image: url(/assets/images/IMG_20260628_200211080_HDR_dark.jpg);
 
     background-size: cover;
 
@@ -153,7 +156,7 @@ a:hover {
 
     align-items: center;
 
-    padding: 2rem;
+    padding: 0 2rem 2rem;
 
 }
 

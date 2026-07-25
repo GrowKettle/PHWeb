@@ -120,7 +120,9 @@ a:hover {
 
     margin: auto;
 
-    padding: 1.5rem;
+    position: relative;
+
+    overflow: hidden;
 
 }
 
@@ -136,6 +138,25 @@ a:hover {
     color: var(--kc-text-light);
 
 }
+
+.site-banner {
+
+    background-image: url(/assets/images/IMG_20260628_200211080_HDR.jpg);
+
+    background-size: cover;
+
+    background-position: center;
+
+    min-height: 220px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 2rem;
+
+}
+
 
 
 /* ==========================================================

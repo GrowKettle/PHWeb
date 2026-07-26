@@ -132,7 +132,8 @@ a:hover {
 
     font-size: 2rem;
     margin-bottom: .25rem;
-    color: var(--kc-header-text)
+    /* 7/26/26 - color: var(--kc-header-text) */
+    color: yellow;
 
 }
 
@@ -144,7 +145,7 @@ a:hover {
 
 .site-banner {
 
-    /*
+    /* 7/26/26
     background-image: url(../images/IMG_20260628_200211080_HDR_dark.jpg);
 
     background-size: cover;

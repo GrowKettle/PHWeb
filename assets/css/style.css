@@ -142,6 +142,19 @@ a:hover {
 
 }
 
+/* 7/26/26 */
+.site-banner::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.35);
+
+}
+
 .site-banner {
 
     background-image: url(../images/IMG_20260628_200211080_HDR_dark.jpg);
@@ -154,9 +167,11 @@ a:hover {
 
     display: flex;
 
-    align-items: center;
+    flex-direction: column;
 
-    padding: 0 2rem 2rem;
+    justify-content: flex-end;
+
+    padding: 2rem;
 
     /*7/26/26
     background: red;
@@ -165,6 +180,14 @@ a:hover {
 
 }
 
+/* 7/26/26 */
+.banner-content {
+
+    /* max-width: 60rem; */
+    position: relative;
+    z-index: 1;
+
+}
 
 
 /* ==========================================================

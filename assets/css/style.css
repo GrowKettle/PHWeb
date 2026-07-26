@@ -144,6 +144,7 @@ a:hover {
 
 .site-banner {
 
+    /*
     background-image: url(../images/IMG_20260628_200211080_HDR_dark.jpg);
 
     background-size: cover;
@@ -157,6 +158,11 @@ a:hover {
     align-items: center;
 
     padding: 0 2rem 2rem;
+
+    */
+
+    background: red;
+    min-height: 220px;
 
 }
 

@@ -31,6 +31,9 @@
 
     --kc-header-text: #ffffff;
 
+    /* Last parameter controls the transparency of the overlay */
+    --banner-overlay: rgba(0, 0, 0, 0.3);
+
     --kc-border: #d8d8d8;
 
     --kc-link: #1565c0;
@@ -151,13 +154,13 @@ a:hover {
 
     inset: 0;
 
-    background: rgba(0, 0, 0, 0.35);
+    background: var(--banner-overlay);
 
 }
 
 .site-banner {
 
-    background-image: url(../images/IMG_20260628_200211080_HDR_dark.jpg);
+    background-image: url(../images/IMG_20260628_200211080_HDR.jpg);
 
     background-size: cover;
 

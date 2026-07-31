@@ -17,3 +17,13 @@
 .AppleDesktop
 Network Trash Folder
 Temporary Items
+
+# Virtual environment files created when using PyCharm to add Google Analytics to all .html.
+tools/venv/
+
+# PyCharm IDE-specific project settings
+.idea/
+
+# Python
+__pycache__/
+*.pyc

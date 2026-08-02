@@ -566,7 +566,18 @@ Added per Chat-GPT, 7/11/26
 
 }
 
-/* Layout the list horizontally and remove default bullets - 7/13/26*/
+/* ==========================================================
+  Reduced line spacing in list items
+  Added 8/2/26 for list of Program Guide topics.
+  ========================================================== */
+
+.tight-list li { 
+
+    margin-bottom: 0.2rem; 
+
+}
+
+/* Layout the list horizontally and remove default bullets - 7/13/26 */
 .breadcrumb-list {
   display: flex;
   flex-wrap: wrap;

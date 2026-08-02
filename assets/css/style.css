@@ -491,7 +491,7 @@ Added per Chat-GPT, 7/11/26
 
 .site-footer {
 
-    margin-top: 4rem;
+    margin-top: 2rem;
 
     border-top: 1px solid var(--kc-border);
 
@@ -567,13 +567,13 @@ Added per Chat-GPT, 7/11/26
 }
 
 /* ==========================================================
-  Reduced line spacing in list items
+  Reduced line spacing in list items and shift away from left margin
   Added 8/2/26 for list of Program Guide topics.
   ========================================================== */
 
 .tight-list li { 
 
-    margin-bottom: 0.2rem; 
+    margin-bottom: 0.2rem; margin-left: 1rem;
 
 }
 
